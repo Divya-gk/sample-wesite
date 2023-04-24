@@ -1,0 +1,10 @@
+pipeline {
+  agent any 
+    stages {
+      stage("website") {
+          steps {
+                echo "<html><h1>This is my First Website</h1></html>"  >  index.html
+                }
+               }
+              }
+             }
